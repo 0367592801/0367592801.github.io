@@ -10,9 +10,10 @@
 .menu{
     width: 100%;
     padding: 20px 0px;
-    background-color: black;
+    background-color: white;
     position: fixed;
     z-index: 1000;
+    box-shadow: 2px 3px 7px 3px gray;
 }
 .main-menu{
     width: 100%;
@@ -21,19 +22,18 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    
 }
 .main-menu li{
     padding: 10px;
-    background-color: white;
+    border: 1px solid black;
     text-align: center;
     border-radius: 10px;
     margin-left: 15px;
 }
 .main-menu li:hover{
-    box-shadow: 3px 3px 3px 3px red;
     cursor: pointer;
-    background-color: green;
+    background-color: aqua;
+
 }
 .header {
     width: 100%;
@@ -45,9 +45,9 @@
     display: flex;
 }
 .avatar{
-    margin:400px auto;
-    width: 200px;
-    height: 200px;
+    margin:425px auto;
+    width: 150px;
+    height: 150px;
     background-image: url("./b512d8c686dc5f92491109f54245b2b7.jpg");
     background-size: cover;
     border: 2px solid black;
@@ -55,15 +55,14 @@
     z-index: 100;
 }
 .content{ 
+    margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
 }
 .img{
     width: 40%;
     height: 500px;
-    background-image: url("./70392fee76cd7e6c7a6a947104673059.jpg");
     border-radius: 10px;
     background-size: cover;
 }
