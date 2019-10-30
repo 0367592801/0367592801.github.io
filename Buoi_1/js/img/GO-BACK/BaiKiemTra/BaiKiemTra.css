@@ -68,9 +68,9 @@
 }
 .infor{ 
     width: 30%;
-    height: 400px;
+    /* height: 400px; */
     text-align: center;
-    padding: 50px 5%;
+    padding: 0px 5%;
 }
 .footer{
     margin-top: 15px;
