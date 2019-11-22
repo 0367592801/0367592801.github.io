@@ -7,11 +7,12 @@ function main() {
     renderer.setSize(innerWidth, innerHeight);
     // camera 
     const camera = new THREE.PerspectiveCamera(40, 2, 0.1, 1000);
-    camera.position.x = 100;
-    camera.position.y = 100;
+    camera.position.x = 0;
+    camera.position.y = 500;
+    camera.position.z = 0;
     // scene 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x00000);
+    scene.background = new THREE.Color(0xffffff);
     // ánh sáng 
     {
         const color = 0xFE5C0B;
@@ -142,7 +143,7 @@ function main() {
         if (halcon) {
             // halcon.rotation.x += options.velxHal;
             halcon.rotation.y += options.velxHal;
-            halcon.rotation.z += options.velxHal;
+            //halcon.rotation.z += options.velxHal;
         }
         
     }
